@@ -1,3 +1,218 @@
 & {
-  
+  main,
+  header,
+  footer,
+  section {
+    overflow: hidden;
+  }
+  nav .logo {
+    margin: 0 auto;
+  }
+  .head {
+    background: 0 0;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .head-item {
+    text-align: center;
+    h1 {
+      font-size: 26px;
+      line-height: 1.2;
+    }
+    ul {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 235px;
+      li {
+        text-align: left;
+      }
+    }
+    p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .timer {
+    display: inline-block;
+  }
+  .head-price {
+    margin-top: 20px;
+  }
+
+  .fancybox-slide {
+    padding: 0;
+  }
+  .head {
+    padding-bottom: 50px;
+  }
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .section_1 {
+    padding: 50px 0;
+  }
+  .title {
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .section_1-tem {
+    padding: 0;
+    margin-bottom: 20px;
+    br {
+      display: none;
+    }
+  }
+  .xs-none {
+    display: none;
+  }
+  .list {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .why {
+    margin-top: 0;
+    padding: 50px 0;
+    margin-bottom: 0px;
+  }
+  .why-item {
+    text-align: center;
+  }
+  .why-item .svg {
+    img {
+      width: inherit;
+    }
+  }
+  .section_2 {
+    padding: 50px 0;
+     background: 0 0;
+    .head-price {
+      display: none;
+    }
+  }
+  .reviews {
+    padding: 50px 0;
+  }
+  .reviews-carousel .row .col-xl-6:nth-child(2) {
+    padding: 55px 20px 74px 10px;
+  }
+  .questions-item {
+    text-align: center;
+    margin-right: auto;
+    ul {
+      text-align: left;
+    }
+    br {
+      display: none;
+    }
+  }
+  .questions {
+    padding-bottom: 50px;
+  }
+  .registration .col-xl-6 {
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+  .registration .head-price {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    /*box-shadow: 0px 11px 42px -5px #000000;
+    &:before {
+      box-shadow: 0px 11px 42px -5px #000000;
+    }*/
+
+  }
+  .registration .bg {
+    position: relative;
+    padding: 50px 15px 50px;
+    margin-bottom: 0;
+}
+  .registration-img {
+    display: none; 
+  }
+  .form {
+    padding: 60px 35px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .registration-form h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    br {
+        display: none;
+    }
+  }
+  .footer {
+    text-align: center;
+    .social {
+      text-align: center;
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .footer_bottom {
+    text-align: center;
+    li {
+      margin: 10px 0;
+      display: block;
+    }
+  }
+  .rezart-logo {
+    float: none;
+  }
+  .head-video {
+    margin-right: auto;
+  }
+  .section_2 {
+    text-align: center;
+  }
+  .registration {
+    text-align: center;
+  }
+  .registration-list {
+     margin-left: auto;
+      margin-right: auto;
+      max-width: 235px;
+    text-align: left;
+    br {
+      display: none;
+    }
+  }
+  .registration .bg:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    .footer.thx p {
+    text-align: center;
+  }
+  .success-item h1 {
+    color: #363636;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 14px;
+  }
+  .success-item P {
+    font-size: 16px;
+  }
+  .order-btn {
+    font-size: 13px;
+    padding: 14px 30px;
+  }
+
+  .success {
+        padding-top: 26.211047vw;
+    min-height: calc(100vh - 205px);
+}
 }
